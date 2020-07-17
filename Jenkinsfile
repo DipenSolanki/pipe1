@@ -20,4 +20,7 @@ node{
          sh "mvn package"
         }
     }
+    stage("Print Hello"){
+     sh 'echo Hello to Jenkins'
+    }
 }
